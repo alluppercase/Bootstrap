@@ -1,20 +1,32 @@
 @charset "utf-8";
 /* CSS Document */
 
+.fullbody{
+	background-image: url("paper_dents_texture_76553_1920x1080.jpg");
+	background-color: #CD0104;
+}
 .itemlistimage{
 	margin-left: 30px;
 }
 
 .itemlist{
+	font-family: 'Open Sans', sans-serif;
 	margin-left: 30px;
 	color: black;
 	font-size: 40px;
 }
 
 .buttondescription{
-	margin-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 20px;
 }
 
 .hometitle{
+	font-family: 'Open Sans', sans-serif;
 	font-size: 100px;
+}
+
+.title{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
 }
