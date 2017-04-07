@@ -9,6 +9,7 @@
 
 <!-- Bootstrap -->
 <link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="contactform.css">
 <link rel="stylesheet" href="styles.css">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -31,10 +32,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="myDefaultNavbar1">
       <ul class="nav navbar-nav">
-       <li class="active"><a href="http://52.10.140.61/Bootstrap/index.html">Home <span class="sr-only">(current)</span></a></li>
-        <li class="active"><a href="#">Music <span class="sr-only">(current)</span></a></li>
+       <li><a href="http://52.10.140.61/Bootstrap/index.html">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Music <span class="sr-only">(current)</span></a></li>
         <li><a href="#">Games</a></li>
-        <li><a href="#">Contact</a></li>
+        <li class="active"><a href="#">Contact</a></li>
       </ul>
      
 </div>
@@ -50,6 +51,7 @@
       <div class="row">
         <div class="col-xs12">
           <h1 class="title">contact</h1>
+          <h2 class="itemlist">Leave your info here and I will get back to you!</h2>
 <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p> -->
         </div>
       </div>
@@ -58,28 +60,35 @@
 </section>
 
 <section>
+
 	
+	<div class="container">
+  <form action="/action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 	
-	<div class="itemlistimage">
-		<h2 class="text-left">
-		<a href="http://52.10.140.61/wordpress/">
-			<img src="images/cubefinal.png">	
-		</a>
-		
-		<br>
-		<p class = "buttondescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet cumque ipsa officiis quis, molestiae, laboriosam sit fugit asperiores voluptatum nam earum tempora distinctio odio neque dolorem quas, maxime optio dignissimos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam vero quos quisquam qui blanditiis tempora autem voluptatem beatae quidem molestiae, fugiat accusantium officia, perferendis itaque est pariatur, quis dicta non.</p>
-		</h2>	
-		
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		
-		
-	</div>
 	
 </section>
+
 <footer class="text-center">
   <div class="container">
     <div class="row">
