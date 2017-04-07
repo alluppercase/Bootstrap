@@ -2,11 +2,11 @@
 /* CSS Document */
 
 .fullbody{
-	background-image: url("paper_dents_texture_76553_1920x1080.jpg");
+	background-image: url("images/paper_dents_texture_76553_1920x1080.jpg");
 	background-color: #CD0104;
 }
 .itemlistimage{
-	margin-left: 30px;
+	margin-left: 150px;
 }
 
 .itemlist{
@@ -30,4 +30,9 @@
 	margin-left: 20px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 60px;
+}
+
+.bio{
+	font-family: 'Open Sans', sans-serif;
+	margin-right: 400px;
 }
